@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context=".ProfileFragment"
+              android:background="@color/background_color"
+              android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Profile"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/dark_text_color"/>-->
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:gravity="top">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:orientation="vertical"
+                          android:background="@color/primary_color">
+            </LinearLayout>
+        <androidx.cardview.widget.CardView android:layout_width="130dp"
+                                           android:layout_height="130dp"
+                                           android:layout_centerHorizontal="true"
+                                           app:cardCornerRadius="100dp"
+                                           android:layout_marginTop="130dp">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+            android:src="@drawable/tejal"/>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+    android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Tejal Sankpal"
+                  android:textStyle="bold"
+                  android:textColor="@color/dark_text_color"
+                  android:textSize="18dp"
+                  android:id="@+id/memberName"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/light_text_color"
+                  android:text="Client Id : 100001"
+                  android:textSize="15dp"
+                  android:id="@+id/memberId"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Equiry"
+                  android:textSize="15dp"
+                  android:textColor="@color/primary_color"
+                  android:id="@+id/memberStatus"
+        />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--        <TextView android:layout_width="wrap_content"-->
+<!--                  android:layout_height="wrap_content"-->
+<!--                  android:textColor="@color/primary_color"-->
+<!--                  android:textStyle="bold"-->
+<!--                  android:text="Name"-->
+<!--                  android:textSize="14dp"-->
+<!--                  android:layout_marginLeft="15dp"-->
+<!--                  android:id="@+id/membername"/>-->
+
+<!--        <TextView android:layout_width="wrap_content"-->
+<!--                  android:layout_height="wrap_content"-->
+<!--                  android:textColor="@color/dark_text_color"-->
+<!--                  android:textStyle="bold"-->
+<!--                  android:text="Tejal Sankpal"-->
+<!--                  android:textSize="14dp"-->
+<!--                  android:layout_marginLeft="15dp"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/primary_color"
+                  android:textStyle="bold"
+                  android:text="Email"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/dark_text_color"
+                  android:textStyle="bold"
+                  android:text="tejal.12.sankpal@gmail.com"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"
+                  android:id="@+id/memberEmailId"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/primary_color"
+                  android:textStyle="bold"
+                  android:text="Date Of Birth"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/dark_text_color"
+                  android:textStyle="bold"
+                  android:text="12-12-2001"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"
+                  android:id="@+id/memberDateOfBirth"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/primary_color"
+                  android:textStyle="bold"
+                  android:text="Password"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/dark_text_color"
+                  android:textStyle="bold"
+                  android:text="***********"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"
+                    android:id="@+id/memberPassword"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/primary_color"
+                  android:textStyle="bold"
+                  android:text="Contact No"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/dark_text_color"
+                  android:textStyle="bold"
+                  android:text="8291610370"
+                  android:textSize="14dp"
+                  android:layout_marginLeft="15dp"
+        android:id="@+id/memberMobileNo"/>
+    </LinearLayout>
+
+</LinearLayout>
